@@ -186,20 +186,32 @@
 
 
 <!--===== INICIO AREA STARTS =======-->
-<div class="hero2-section-area" style="background-image: url('assets/img/bg/hero-bg3.png'); background-size: cover; background-position: center; text-align: center;">
+<div class="hero2-section-area" style="background-image: url('assets/img/bg/hero-bg3.png'); background-size: cover; background-position: center; min-height: 420px; display: flex; align-items: center;">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <h1 style="color: #ffffff; font-weight: bold; text-align: center; font-size: 3rem; line-height: 1.2;">
+    <div class="row align-items-center">
+      <!-- Texto a la izquierda -->
+      <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+        <h1 class="text-anime-style-3" style="font-weight: 800; color: #fff; font-size: 2.3rem; margin-bottom: 1rem; text-shadow: 0 2px 12px rgba(0,0,0,0.18);">
           Protege Tu Hogar con AquaGuard
         </h1>
-        <p style="color: #ffffff; font-size: 1.5rem; line-height: 1.5; text-align: center; max-width: 600px; margin: 0 auto;">
+        <p style="color: #fff; font-size: 1.35rem; text-align: left; max-width: 600px; text-shadow: 0 2px 8px rgba(0,0,0,0.13);">
           Detecta fugas y humedad antes de que causen daños graves, ahorrando dinero en reparaciones y brindándote tranquilidad. La solución inteligente para la seguridad de tu hogar.
         </p>
-        <div class="btn-area1" style="text-align: center; margin-top: 20px;">
-          <a class="header-btn2" style="background-color: #c28f0a; border: none; margin-right: 10px;" onclick="document.querySelector('.about2-section-area.sp1').scrollIntoView({ behavior: 'smooth' });">Descubre Más</a>
-          <a class="header-btn2" style="background-color: #c28f0a; border: none;" onclick="document.querySelector('.contact2-section-area.sp1').scrollIntoView({ behavior: 'smooth' });">Comprar Ahora</a>
+        <div class="space24"></div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <button type="button" class="header-btn2" style="cursor: pointer; background: #9e8400; color: #ffffff; font-weight: bold; font-size: 1.1rem; border: none; border-radius: 30px; padding: 12px 32px; box-shadow: 0 2px 8px rgba(255, 255, 255, 0.08); transition: background 0.2s;" onclick="document.querySelector('.service2-section-area.sp2').scrollIntoView({ behavior: 'smooth' });">
+            Descubre Más
+          </button>
+          <a href="https://wa.me/51925238438?text=Hola%2C%20estoy%20interesado%20en%20AquaGuard%20y%20me%20gustaría%20recibir%20más%20información." target="_blank" class="header-btn2" style="background-color: #9e8400; color: #fff; font-weight: bold; font-size: 1.1rem; border: none; border-radius: 30px; padding: 12px 32px; display: inline-flex; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: background 0.2s;">
+            Comprar Ahora
+          </a>
         </div>
+      </div>
+      <!-- Video a la derecha -->
+      <div class="col-lg-5 col-md-12 d-flex justify-content-center">
+        <video controls style="max-width: 100%; border-radius: 20px; background: #000; box-shadow: 0 4px 24px rgba(0,0,0,0.15); min-width: 320px; max-width: 420px;">
+          <source src="assets/video/aquaguard-video.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
